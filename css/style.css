@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: #F3FEB0;
   }
   
   h1 {
-    color: rgb(255, 208, 0);
+    color: #705E78;
     margin-left: 20px;
-    font-size: 90px;
+    font-size: 50px;
   }
   #para1 {
     text-align: center;

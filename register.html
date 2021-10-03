@@ -8,21 +8,23 @@
     <title>Register</title>
 </head>
 <body>
-    <h1>Register.html</h1>
+    <h1>Register</h1>
     <form>
         <p>ชื่อ : <input type="text"></p>
         <p>นามสกุล : <input type="text"></p>
+        <p>E-mail : <input type="email"></p>
         <p>วันเกิด : <input type="date"></p>
         <p>น้ำหนัก : <input type="number" min="1" max="500"></p>
-        <p>E-mail : <input type="email"></p>
-        <p>Username : <input type="text"></p>
-        <p>Password : <input type="password"></p>
-        <p>Gender : <input type="radio" name="gender" value="Male">ชาย
+        <p>ส่วนสูง : <input type="number" min="1" max="500"></p>
+        <p>อัพโหลดรูปภาพ : <input type="file" name="myImage" accept="image/x-png,image/gif,image/jpeg"></p>
+        <p>กำหนดรหัสผ่าน : <input type="password"></p>
+        <p>เพศ : <input type="radio" name="gender" value="Male">ชาย
                     <input type="radio" name="gender" value="Female">หญิง
         </p>
-        <p>วิชาที่ชอบ : <input type="checkbox" name="subject" value="C++">C++
-                    <input type="checkbox" name="subject" value="Elec">Elec
-                    <input type="checkbox" name="subject" value="Basic Com">Basic Com
+        <p>สีที่ชอบ : <input type="color"></p>
+        <p>ประเทศที่ชอบ : <input type="checkbox" name="country" value="United States of America">United States of America
+                    <input type="checkbox" name="country" value="United Kingdom">United Kingdom
+                    <input type="checkbox" name="country" value="South Korea">South Korea
         </p>
         <p><input type="submit" value="ยืนยัน">
         <input type="reset" value="ยกเลิก"></p>
